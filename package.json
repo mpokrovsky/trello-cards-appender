@@ -1,0 +1,17 @@
+{
+  "name": "trello",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc -p .; node build/index.js",
+    "compile": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/jsdom": "^16.2.13",
+    "@types/node": "^16.11.0",
+    "@types/puppeteer": "^5.4.4",
+    "jsdom": "^18.0.0",
+    "puppeteer": "^10.4.0"
+  }
+}
